@@ -1,5 +1,8 @@
 add_library(GameServer STATIC
     src/ch01/prime_number.cpp
+    src/ch01/prime_number_errorneous.cpp
+    src/ch01/prime_number_multithreaded.cpp
+    src/ch01/deadlock-example.cpp
 )
 
 add_library(Abyss::Server ALIAS GameServer)

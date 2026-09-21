@@ -1,11 +1,8 @@
-#include <iostream>
-
-using std::cout;
-using std::endl;
-
-namespace ch01 { int ExecMain(); }
+namespace ch01::prime_number { int ExecMain(); }
+namespace ch01::prime_number_multithreaded { int ExecMain(); }
 
 int main()
 {
-    return ch01::ExecMain();
+    ch01::prime_number::ExecMain();
+    ch01::prime_number_multithreaded::ExecMain();
 }
