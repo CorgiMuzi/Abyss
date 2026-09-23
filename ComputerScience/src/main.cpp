@@ -4,15 +4,12 @@
 
 using namespace std;
 
-namespace pg::q81303 { string solution(int n, int k, vector<string> cmd); }
+namespace pg::q42897 { int solution(vector<int> money); }
 
 int main()
 {
-    int n = 8;
-    int k = 2;
-    vector<string> cmd = {"D 2","C","U 3","C","D 4","C","U 2","Z","Z"};
+    vector<int> money = {2,3,2};
+    int expected = 4;
 
-    cout << pg::q81303::solution(n, k, cmd);
-
-    return 0;
+    cout << "Expected: " << expected << "\nOutput: " << pg::q42897::solution(money) << endl;
 }

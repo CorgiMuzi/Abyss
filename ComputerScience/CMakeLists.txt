@@ -1,4 +1,5 @@
 add_library(ComputerScience STATIC 
+    src/programmers/42897.cpp
     src/programmers/81303.cpp
     src/ch01/towerOfHanoi.cpp
 )
