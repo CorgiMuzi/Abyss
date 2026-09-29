@@ -4,22 +4,11 @@
 
 using namespace std;
 
-namespace pg::q42897 { int solution(vector<int> money); }
-namespace pg::q150365 { string solution(int n, int m, int x, int y, int r, int c, int k); }
-namespace pg::q42892 { vector<vector<int>> solution(vector<vector<int>> nodeinfo); }
-namespace pg::q1832 { int solution(int m, int n, vector<vector<int>> city_map);}
-namespace pg::q60061 { vector<vector<int>> solution(int n, vector<vector<int>> build_frame); }
+namespace pg::q72414 { string solution(string play_time, string adv_time, vector<string> logs); }
 
 int main()
 {
-    vector<vector<int>> bp = pg::q60061::solution(5, {{0,0,0,1},{2,0,0,1},{4,0,0,1},{0,1,1,1},{1,1,1,1},{2,1,1,1},{3,1,1,1},{2,0,0,0},{1,1,1,0},{2,2,0,1}});
+    string ans = pg::q72414::solution("02:03:55", "00:14:15", {"01:20:15-01:45:14", "00:40:31-01:00:00", "00:25:50-00:48:29", "01:30:59-01:53:29", "01:37:44-02:02:30"});
 
-    for(int i = 0; i < bp.size(); ++i)
-    {
-        for(int j = 0; j < bp[i].size(); ++j)
-        {
-            cout << bp[i][j] << " ";
-        }
-        cout << endl;
-    }
+    cout << "01:30:59\n" << ans << endl;
 }
