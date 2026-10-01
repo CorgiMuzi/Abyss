@@ -4,13 +4,12 @@
 
 using namespace std;
 
-namespace pg::q77886 { vector<string> solution(vector<string> s); }
+namespace pg::q64063 { vector<long long> solution(long long k, vector<long long> room_number); }
 
 int main()
 {
-    const vector<string>& answer = pg::q77886::solution({"10101010110","00000011100011111","01110"});
-    for(int i = 0; i < answer.size(); ++i) {
-        cout << answer[i] << " ";
-    }
-    cout <<endl;
+    const vector<long long>& answer = pg::q64063::solution(10, {1, 3, 4, 1, 3, 1});
+
+    for(long long ll : answer) cout << ll << " ";
+    cout << endl;
 }
