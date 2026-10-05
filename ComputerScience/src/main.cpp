@@ -4,9 +4,9 @@
 
 using namespace std;
 
-namespace pg::q42891 { int solution(vector<int> food_times, long long k); }
+namespace pg::q49995 { int solution(vector<int> cookie); }
 
 int main()
 {
-    cout << pg::q42891::solution({3, 1, 2}, 5);
+    cout << pg::q49995::solution({1,1,2,3});
 }

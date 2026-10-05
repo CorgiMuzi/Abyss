@@ -3,6 +3,7 @@ add_library(ComputerScience STATIC
     src/programmers/42891.cpp
     src/programmers/42892.cpp
     src/programmers/42897.cpp
+    src/programmers/49995.cpp
     src/programmers/60061.cpp
     src/programmers/64063.cpp
     src/programmers/72414.cpp
