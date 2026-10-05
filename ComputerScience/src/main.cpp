@@ -4,9 +4,13 @@
 
 using namespace std;
 
-namespace pg::q49995 { int solution(vector<int> cookie); }
+namespace pg::q150367 { vector<int> solution(vector<long long> numbers); }
 
 int main()
 {
-    cout << pg::q49995::solution({1,1,2,3});
+    const vector<int>& v = pg::q150367::solution({1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
+    for(int i : v)
+    {
+        cout << i << " ";
+    }
 }
