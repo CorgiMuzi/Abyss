@@ -4,9 +4,11 @@
 
 using namespace std;
 
-namespace pg::q60062 { int solution(int n, vector<int> weak, vector<int> dist); }
+namespace pg::q131129 { vector<int> solution(int target); }
 
 int main()
 {
-    cout << pg::q60062::solution(12, {1, 3, 4, 9, 10}, {3, 5, 7});
+    int input = 58;
+    vector<int> v = pg::q131129::solution(input);
+    cout << input << ": {" << v[0] << ", " << v[1] <<"}";
 }
