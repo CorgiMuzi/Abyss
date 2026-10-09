@@ -4,9 +4,9 @@
 
 using namespace std;
 
-namespace pg::q17685 { int solution(vector<string> words); }
+namespace pg::q70130 { int solution(vector<int> a); }
 
 int main()
 {
-    cout << pg::q17685::solution(vector<string>{"word","war","warrior","world"});
+    cout << pg::q70130::solution({1, 1, 2, 2, 2, 3, 4, 5, 2, 8, 2});
 }
