@@ -4,9 +4,10 @@
 
 using namespace std;
 
-namespace pg::q70130 { int solution(vector<int> a); }
+namespace pg::q118669 { vector<int> solution(int n, vector<vector<int>> paths, vector<int> gates, vector<int> summits); }
 
 int main()
 {
-    cout << pg::q70130::solution({1, 1, 2, 2, 2, 3, 4, 5, 2, 8, 2});
+    vector<int> v = pg::q118669::solution(6, {{1, 2, 3}, {2, 3, 5}, {2, 4, 2}, {2, 5, 4}, {3, 4, 4}, {4, 5, 3}, {4, 6, 1}, {5, 6, 1}}, {1, 3}, {5});
+    cout << v[0] << ", " << v[1] << endl;
 }
