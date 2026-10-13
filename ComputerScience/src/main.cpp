@@ -4,9 +4,11 @@
 
 using namespace std;
 
-namespace pg::q87694 { int solution(vector<vector<int>> rectangle, int characterX, int characterY, int itemX, int itemY); }
+namespace pg::q150366 { vector<string> solution(vector<string> commands); }
 
 int main()
 {
-    cout << pg::q87694::solution({{2,2,5,5},{1,3,6,4},{3,1,4,6}}, 1, 4, 6, 3);
+    auto v = pg::q150366::solution({"UPDATE 1 1 menu", "UPDATE 1 2 category", "UPDATE 2 1 bibimbap", "UPDATE 2 2 korean", "UPDATE 2 3 rice", "UPDATE 3 1 ramyeon", "UPDATE 3 2 korean", "UPDATE 3 3 noodle", "UPDATE 3 4 instant", "UPDATE 4 1 pasta", "UPDATE 4 2 italian", "UPDATE 4 3 noodle", "MERGE 1 2 1 3", "MERGE 1 3 1 4", "UPDATE korean hansik", "UPDATE 1 3 group", "UNMERGE 1 4", "PRINT 1 3", "PRINT 1 4"});
+
+    for(const string& str : v)cout << str << endl;
 }
