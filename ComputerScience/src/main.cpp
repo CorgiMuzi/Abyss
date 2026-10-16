@@ -4,9 +4,9 @@
 
 using namespace std;
 
-namespace pg::q12920 { int solution(int n, vector<int> cores); }
+namespace pg::q131703 { int solution(vector<vector<int>> begining, vector<vector<int>> target); }
 
 int main()
 {
-    cout << pg::q12920::solution(2, {9999, 9999, 9999,9999, 9999 });
+    cout << pg::q131703::solution({{0, 1, 0, 0, 0}, {1, 0, 1, 0, 1}, {0, 1, 1, 1, 0}, {1, 0, 1, 1, 0}, {0, 1, 0, 1, 0}}, {{0, 0, 0, 1, 1}, {0, 0, 0, 0, 1}, {0, 0, 1, 0, 1}, {0, 0, 0, 1, 0}, {0, 0, 0, 0, 1}});
 } 
