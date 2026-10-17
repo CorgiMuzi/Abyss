@@ -23,6 +23,7 @@ add_library(ComputerScience STATIC
     src/programmers/150366.cpp
     src/programmers/150367.cpp
     src/ch01/towerOfHanoi.cpp
+    src/programmers/12942.cpp
 )
 
 add_library(Abyss::CS ALIAS ComputerScience)
